@@ -1,0 +1,18 @@
+alias ping="ping -c4"
+alias vi='/usr/bin/vim'
+alias hcu='hhvm $(which composer) update --no-scripts'
+alias hci='hhvm $(which composer) install --no-scripts'
+alias phpunit='php -dzend_extension=xdebug.so $(which phpunit)'
+
+tailf() {
+    tail -f "$*" | ccze -A
+}
+
+chmoddir() {
+    find "$*" -type d -exec chmod 755 {} +
+}
+
+chmodfile() {
+    find "$*" -type f -exec chmod 644 {} +
+}
+

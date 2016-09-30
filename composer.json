@@ -1,0 +1,13 @@
+{
+    "name": "adrienpayen/zsh-config",
+    "description": "Configuration Zsh",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrien PAYEN",
+            "email": "adrien.payen1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
