@@ -2,7 +2,7 @@
 
 CURRENT=`pwd`
 # Install zsh
-sudo aptitude install zsh
+brew install zsh zsh-completions
 
 # Change shell for zsh
 chsh
